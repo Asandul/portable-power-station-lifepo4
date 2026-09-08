@@ -51,6 +51,10 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 - **Home Panel Integration:** Two cables to the breaker panel — one for backup power feed, one for grid charging when electricity is available
 - **Automation:** Home Assistant with Zigbee sensors and switches, ESP32 and DC-DC LM2596 3A 4.5-40V
 
+<p align="center">
+  <img src="images/Components_01.jpeg" alt="Components" width=100%/>
+</p>
+
 ---
 
 ## 🏠 Home Integration & Automation
