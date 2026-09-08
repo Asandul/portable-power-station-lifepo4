@@ -3,7 +3,7 @@
 A self-built 4 kWh LiFePO4 portable power station designed for home backup during power outages and for mobile off-grid use. The unit is housed in a wheeled toolbox, connects to the home breaker panel as a reserve power source, and can be taken off-site when needed.
 
 <p align="center">
-  <img src="images/Main_01.png" alt="Power Station" width="700"/>
+  <img src="images/Main_01.png" alt="Power Station" width=100%/>
 </p>
 
 ## 🧩 Why I Built It Instead of Buying
@@ -44,11 +44,11 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 - **BMS:** Jikong JK-B2A8S20P (200 A, active balance, BLE, RS485)
 - **Inverter:** TATALIKEN 3000 W pure sine wave
 - **Charger:** Server-grade 12 V 40 A
-- **Monitoring:** ESP32 DevKit + ESPHome integration
-- **Hardware Protection:** Dedicated charge cutoff board — automatically stops charging when cell voltage reaches the set threshold (failsafe if Home Assistant automation fails)
-- **Adjustable PSU Module:** Configurable output voltage, currently set to 19 V
+- **Monitoring:** ESP32 DevKit + ESPHome integration + JK BMS LCD 3.2
+- **Hardware Protection XH-M602:** Dedicated charge cutoff board — automatically stops charging when cell voltage
+- **Adjustable PSU Module DC-DC 10А 600W 10V-60V 12-60V:** Configurable output voltage, currently set to 19 V
 - **Home Panel Integration:** Two cables to the breaker panel — one for backup power feed, one for grid charging when electricity is available
-- **Automation:** Home Assistant with Zigbee sensors and switches
+- **Automation:** Home Assistant with Zigbee sensors and switches, ESP32 and DC-DC LM2596 3A 4.5-40V
 
 ---
 
@@ -81,17 +81,16 @@ All switching is automated through **Home Assistant** with Zigbee devices:
 
 ## 📊 Monitoring
 
+The ESP32 transmits **dozens** of different data points to Home Assistant. I selected the ones most important to me and displayed them on the dashboard.
+
 Real-time battery monitoring via ESP32 + ESPHome:
 
 - Total and per-cell voltage
 - Charge / discharge current
 - Power (W)
-- Remaining capacity (Ah / %)
 - Cell and BMS temperature
-- Cycle count
-- Errors and balancing status
 
-Screenshots of JK BMS settings and Home Assistant dashboard are included in the `images/` folder.
+More screenshots of JK BMS settings and Home Assistant dashboard are included in the `images/` folder.
 
 ---
 
