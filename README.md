@@ -47,6 +47,7 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 - **Monitoring:** ESP32 DevKit + ESPHome integration + JK BMS LCD 3.2
 - **Hardware Protection XH-M602:** Dedicated charge cutoff board — automatically stops charging when cell voltage
 - **Adjustable PSU Module DC-DC 10А 600W 10V-60V 12-60V:** Configurable output voltage, currently set to 19 V
+- **Cooling:** For cooling, I used two 120mm fans connected to a relay with a temperature sensor. You can manually set the temperatures at which the fans turn on and off.
 - **Home Panel Integration:** Two cables to the breaker panel — one for backup power feed, one for grid charging when electricity is available
 - **Automation:** Home Assistant with Zigbee sensors and switches, ESP32 and DC-DC LM2596 3A 4.5-40V
 
