@@ -31,7 +31,7 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 | Nominal Voltage | 12 V |
 | Max Continuous Discharge | 200 A (via JK BMS) |
 | Inverter | 1500 W pure sine wave |
-| Charger | Server-grade 12 V 40 A |
+| Charger | Emerson 12V 50A |
 | Monitoring | ESP32 + ESPHome → Home Assistant (Wi-Fi) |
 | Automation | Home Assistant + Zigbee devices |
 | Housing | Portable wheeled toolbox (YATO) |
@@ -43,7 +43,7 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 - **Battery Cells:** *Cornex 3,2V lifepo4 314Ah Grade A × 4*
 - **BMS:** Jikong JK-B2A8S20P (200 A, active balance, BLE, RS485)
 - **Inverter:** TATALIKEN 3000 W pure sine wave
-- **Charger:** Server-grade 12 V 40 A
+- **Charger:** Emerson 12V 50A
 - **Monitoring:** ESP32 DevKit + ESPHome integration + JK BMS LCD 3.2
 - **Hardware Protection XH-M602:** Dedicated charge cutoff board — automatically stops charging when cell voltage
 - **Adjustable PSU Module DC-DC 10А 600W 10V-60V 12-60V:** Configurable output voltage, currently set to 19 V
@@ -52,7 +52,7 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 - **Automation:** Home Assistant with Zigbee sensors and switches, ESP32 and DC-DC LM2596 3A 4.5-40V
 
 <p align="center">
-  <img src="images/Components_01.jpeg" alt="Components" width=100%/>
+  <img src="images/Components_02.jpeg" alt="Components" width=100%/>
 </p>
 
 ---
