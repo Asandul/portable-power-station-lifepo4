@@ -98,8 +98,13 @@ Real-time battery monitoring via ESP32 + ESPHome:
 
 - Total and per-cell voltage
 - Charge / discharge current
+- Charge percentage
 - Power (W)
-- Cell and BMS temperature
+- BMS temperature
+
+<p align="center">
+  <img src="images/Automation-02.png" alt="Automation" width=100%/>
+</p>
 
 More screenshots of JK BMS settings and Home Assistant dashboard are included in the `images/` folder.
 
@@ -112,13 +117,3 @@ More screenshots of JK BMS settings and Home Assistant dashboard are included in
 > **WARNING:** This project involves high currents (up to 200 A), lithium batteries, and mains voltage integration. Improper assembly or wiring can cause fire, explosion, electric shock, or damage to home electrical systems. This repository is for educational purposes only. Always use proper BMS, fuses, circuit breakers, and certified hardware cutoff protection. Replicate at your own risk.
 
 ---
-
-## 📸 Gallery
-
-| Stage | Image |
-|-------|-------|
-| Front view — display active | `images/station_front.jpg` |
-| Internal wiring and BMS | `images/internal_wiring.jpg` |
-| ESP32 monitoring module | `images/bms_esp32.jpg` |
-| Home Assistant dashboard | `images/homeassistant_dashboard.png` |
-| JK BMS settings | `images/jk_bms_settings.png` |
