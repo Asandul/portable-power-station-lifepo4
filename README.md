@@ -27,7 +27,7 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 | Parameter | Value |
 |-----------|-------|
 | Battery Chemistry | LiFePO4 |
-| Capacity | 4 kWh |
+| Capacity | 4 kWh (With economical use, the battery lasts for 12–15 hours.) |
 | Nominal Voltage | 12 V |
 | Max Continuous Discharge | 200 A (via JK BMS) |
 | Inverter | 1500 W pure sine wave |
