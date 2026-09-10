@@ -28,7 +28,7 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 |-----------|-------|
 | Battery Chemistry | LiFePO4 - 10,000 charging cycles |
 | Capacity | 4 kWh - With economical use, the battery lasts for 12–15 hours. |
-| Nominal Voltage | 12 V |
+| Nominal Voltage | 12 V (The inverter converts to 220V) |
 | Max Continuous Discharge | 200 A (via JK BMS) |
 | Inverter | 1500 W pure sine wave |
 | Charger | Emerson 12V 50A |
