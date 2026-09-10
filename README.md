@@ -74,7 +74,7 @@ All switching is automated through **Home Assistant** with Zigbee devices:
 The screenshots below show a simple example of connecting the battery, along with screenshots of the Home Assistant interface.
 
 <p align="center">
-  <img src="images/Automation-01.png" alt="Components" width=100%/>
+  <img src="images/Automation-01.png" alt="Automation" width=100%/>
 </p>
 
 ---
