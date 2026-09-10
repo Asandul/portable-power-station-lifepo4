@@ -71,6 +71,12 @@ All switching is automated through **Home Assistant** with Zigbee devices:
 
 **Failsafe Protection:** A hardware charge cutoff board is installed as a secondary safety layer. If the Home Assistant automation fails, the board physically disconnects the charger once the battery reaches the configured voltage limit.
 
+The screenshots below show a simple example of connecting the battery, along with screenshots of the Home Assistant interface.
+
+<p align="center">
+  <img src="images/Automation-01.png" alt="Components" width=100%/>
+</p>
+
 ---
 
 ## 🔌 Outputs
