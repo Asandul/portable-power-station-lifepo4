@@ -54,6 +54,9 @@ This modular approach allows for repairing, upgrading, or reconfiguring any subs
 <p align="center">
   <img src="images/Components_02.png" alt="Components" width=100%/>
 </p>
+<p align="center">
+  <img src="images/IMG_3103.JPG" alt="Components" width=100%/>
+</p>
 
 ---
 
