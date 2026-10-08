@@ -115,6 +115,12 @@ More screenshots of JK BMS settings and Home Assistant dashboard are included in
 
 ## 📐 Wiring Overview
 
+This schematic details the complete wiring architecture of a portable 4S LiFePO4 power station. This diagram is provided for informational purposes only; the author disclaims all liability for any errors, damages, or risks associated with the construction or use of this equipment.
+
+<p align="center">
+  <img src="images/LiFePO4 POWER STATION WIRING DIAGRAM.jpg" alt="POWER STATION WIRING DIAGRAM" width=100%/>
+</p>
+
 ## ⚠️ Safety & Disclaimer
 
 > **WARNING:** This project involves high currents (up to 200 A), lithium batteries, and mains voltage integration. Improper assembly or wiring can cause fire, explosion, electric shock, or damage to home electrical systems. This repository is for educational purposes only. Always use proper BMS, fuses, circuit breakers, and certified hardware cutoff protection. Replicate at your own risk.
